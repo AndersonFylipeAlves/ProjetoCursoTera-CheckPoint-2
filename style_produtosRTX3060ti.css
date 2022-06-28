@@ -1,0 +1,452 @@
+/*    Reset    */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #42464D;
+    list-style: none;
+}
+
+.ds_none{
+    display: none !important;
+}
+
+.bgDark{ 
+    background-color: #303030;
+}
+.bgLight { 
+    background-color: #ffffff;
+}
+/*    Menu superior    */
+body {
+    background-color: #303030;
+    width: 100%;
+}
+.main_header {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main_header_content {
+    max-width: 1300px;
+    margin: 0px auto;
+    display:flex;
+}
+
+.main_header_content_menu_mobile ul{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.main_header_content_menu_mobile ul li{
+    display: flex;
+    position: relative;
+}
+
+.main_header_content_menu_mobile_obj{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    padding: 10px;
+    color: #FF6500;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.main_header_content_menu_mobile_obj:hover, .main_header_content_menu_mobile_obj_active{
+    cursor: pointer;
+}
+
+.tituloMenu {
+    color: #FF6500;
+    margin: 10px;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+.main_header_content_menu_mobile_sub{
+    min-width: 300px;
+    background-color: #272727;
+    border-radius: 4px 4px 4px 4px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    border: solid 3px #272727;
+    top: 100%;
+}
+
+.main_header_content_menu_mobile_sub li{
+    flex-basis: 100%;
+}
+
+.main_header_content_menu_mobile ul li a{
+    color: #FF6500;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.main_header_content_menu_mobile ul li a:hover{
+    background-color: #303030;
+    color: #fff;
+}
+
+.logo{
+    width: 200px;
+}
+
+body div input {
+    width: 890px;
+    padding: 7px;
+    margin: auto 10px;
+}
+
+/* carrinho e solzinho */
+
+.solzinhoecarrinho {
+    margin: auto;
+    display: flex;
+}
+              
+#solzinho {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#carrinho {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.monte_seu_pc {
+    max-width: 1300px;
+    margin: 15px auto;
+}
+
+.monte_seu_pc img {
+    width: 1300px;
+}
+
+/*    Main    */
+main, .descricaoDoProdutoArticle{
+    background-color: #fff;
+    max-width: 1300px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px rgba(1, 1, 1, 0.363);
+    border-radius: 5px 5px 5px 5px ;
+}
+
+.informacoesTecnicasArticle {
+    background-color: #fff;
+    max-width: 1300px;
+    margin: 0px auto;
+    box-shadow: 3px 3px 10px rgba(1, 1, 1, 0.363);
+    border-radius: 5px 5px 0 0;
+}
+
+main header{
+    flex-basis: 100%;
+}
+
+.nomeDoProdutoH1 {
+    flex-basis: 100%;
+    padding: 20px 0 10px 20px;
+}
+
+.main_conteudo_fotos_textos {
+    display: flex;
+}
+
+.main_fotos_mini {
+    cursor: pointer;
+}
+
+.rtx3060ti1, .rtx3060ti2, .rtx3060ti3, .rtx3060ti4, .rtx3060ti5, .rtx3060ti6 {
+    width: 80px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0 5px 20px;
+}
+
+.rtx3060ti6 {
+    margin-bottom: 15px;
+}
+
+.main_foto_grande {
+    width: 530px;
+    height: 450px;
+}
+
+.main_conteudo_direita {
+    width: 600px;
+    margin-left: 50px;
+}
+
+.precoSemDesconto{
+    text-decoration: line-through;
+    color: #9C98AE;
+}
+
+.precoComDesconto {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 800;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 101, 0);
+}
+
+.textosDireita {
+    color: #565C69;
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.QuadradoDireitaCima {
+    max-width: 650px;
+    height: 82px;
+    width: 100%;
+    background-color: #DD5700;
+    border-radius: 0.5rem 0.5rem 0 0;
+    text-align: end;
+    padding-top: 30px;
+    padding-right: 20px;
+    color: #fff;
+    font-size: 2em;
+}
+
+.QuadradoDireitaBaixo {
+    max-width: 650px;
+    height: 82px;
+    width: 100%;
+    background-color: #FF6500;
+    border-radius: 0 0 0.5rem 0.5rem;
+    margin-top: -30px;
+    padding-top: 30px;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 2em;
+    color: #fff;
+}
+
+.desconto {
+    margin-right: 40px;
+    color: #fff;
+}
+
+.unidades {
+    margin-left: 40px;
+    color: #fff;
+}
+
+.FreteGratis {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #565C69;
+}
+
+.textosESQ {
+    max-width: 300px;
+}
+
+.botãoComprar {
+    background-color: #FF6500;
+    max-width: 248px;
+    height: 48px;
+    width: 350px;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 13px;
+    border-style: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.descricaoDoProdutoH2, .informacoesTecnicasH2 {
+    padding: 10px 20px 0 20px;
+    font-size: 1.8em;
+}
+
+.descricao_produto, .informacoesTecnicas{
+
+    font-size: 1.2em;
+    margin: 10px 20px 0 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    Propaganda slide    */
+.slide {
+    display: flex;
+    max-width: 100%;
+    background-color: #272727;
+}
+
+.propagandaSlide{
+    max-width: 899px;
+    margin: 20px auto;
+}
+
+/*    Optin    */
+.main_optin {
+    width: 100%;
+    background-color: #272727;
+    padding-bottom: 20px;
+}
+
+.main_optin_content {
+    max-width: calc(1300px - 40px);
+    margin: auto;
+    display: flex;
+    background-color: #272727;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_optin .main_optin_content header {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.main_optin .main_optin_content header h2 {
+    color: #fff;
+    padding: 20px 0;
+    font-size: 2.2em;
+}
+
+#nometxt {
+    flex-basis: 30%;
+    color: #fff;
+    background-color: #272727;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#emailtxt {
+    flex-basis: 30%;
+    color: #fff;
+    background-color: #272727;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#botaoCadastrar {
+    flex-basis: 20%;
+    color: #fff;
+    background-color: #272727;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/*    Footer    */
+.main_footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.formasDePagamentoIcons {
+    display: flex;
+}
+
+#iconvisa {
+    width: 90px;
+    height: 70px;
+}
+
+#iconmaster {
+    width: 90px;
+    height: 70px;
+    margin-left: 5px;
+}
+
+#iconamerican {
+    width: 90px;
+    height: 70px;
+}
+
+#iconpay {
+    width: 74px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+#iconboleto {
+    width: 84px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+#iconpix {
+    width: 74px;
+    height: 40px;
+    padding-top: 8px;
+    margin-left: 15px;
+}
+
+.imagemResdesSociais {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.imagemResdesSociaisEspaço {
+    padding-left: 20px;
+}
+
+.iconwhats {
+    display: flex;
+    padding-top: 15px;
+
+}
+
+footer p{
+    margin: 0 auto;
+    background-color: #272727;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+
+footer div {
+    background-color: #272727;
+    margin: auto;
+}
+
+
+.titulosFooter {
+    color: white;
+}
+
+.space {
+    margin-bottom: 10px;
+}
